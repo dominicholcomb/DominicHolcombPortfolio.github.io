@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+body {
+			background: black;
+			font; 100%  "Comic Sans MS", cursive, sans-serif;
+		}
+		h1 {
+			font: 300% Arial, helvetica, sas-serif;
+			color: Yellow;
+		}
+		h2 {
+			font: 165% Impact, Charcoal, sans-serif;
+			color: Red
+		}
+		p {
+			color: Yellow;
+		}
+		
+	#wrapper {
+		width: 1100px;
+		margin: 0 auto;
+		padding: 0px 50px;
+		text-align: left;
+		position: Relative;
+	}
+	
+	header#mainHeader {
+		height: 210px;
+		background: url(images/logo.png) no-repeat 25px center;
+		padding: 0 75px 0 300px;
+		position: relative;
+		border-bottom: 2px solid white;
+		margin-bottom: 16px;
+	}
+	header#mainHeader div{
+	margin-top: 16px;
+	}
+	header#mainHeader ul{
+		list-style: none;
+		float: left;
+	}
+	header#mainHeader ul li {
+		float: left;
+	}
+	header#mainHeader ul li a {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size:20px;
+		color: #fff;
+		padding: 0 17px;
+		border-right:1px Solid #fff;
+		text-decoration: none;
+	}
+	header#mainHeader ul li a.last{
+		border:none;
+	}
+	header#mainHeader ul li a:hover{
+		color: red;
+	}
+	section#content {
+		float:left;
+		width: 600px;
+		padding: 0 10px 0 25px;
+		margin-bottom: 10px;
+		border-right: 1px solid white;
+	}
+		section#content p {
+		color: red;
+		line-height: 1.6;
+		margin-bottom: 10px;
+	}
+	
+	aside#hobbies {
+		font-size: 90%;
+		float: right;
+		width: 450px;
+		margin-bottom: 20px
+	}
+	
+	footer#pageFooter {
+		clear: both;
+		border-top: 2px solid white;
+		padding: 20px;
+	}
+	
+	footer#pageFooter p {
+		text-align: center;
+		font-style: italic;
+		margin-bottom: 10px;
+		color: yellow;
+	}
