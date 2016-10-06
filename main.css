@@ -15,6 +15,9 @@ body {
 		p {
 			color: Yellow;
 		}
+		ul { 
+			color: red;
+		}
 		
 	#wrapper {
 		width: 1100px;
