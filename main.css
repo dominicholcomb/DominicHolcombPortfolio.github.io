@@ -12,6 +12,15 @@ body {
 			font: 165% Impact, Charcoal, sans-serif;
 			color: Red
 		}
+		h3 {
+			font: 150% Arial, helvetica, sas-serif;
+			color: yellow;
+		}
+		h4 {
+			font: 300%;
+			color: grey;
+			
+		}
 		p {
 			color: Yellow;
 		}
